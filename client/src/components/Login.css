@@ -1,0 +1,16 @@
+#main-div{
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (min-height:720px) and (max-height:780px) {
+    #main-div{
+        height: 54vh;
+    }
+}
+
+@media (max-height:719px) {
+    #main-div{
+        height: 60vh;
+    }
+}
